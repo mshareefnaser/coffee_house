@@ -10,6 +10,8 @@
 
 ### Links and Resources
 
+[Pull Request](https://github.com/mshnas9/coffee_house/pull/2)
+
 [Pull Request](https://github.com/mshnas9/coffee_house/pull/1)
 
 ### Setup
