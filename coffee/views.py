@@ -26,7 +26,9 @@ class CoffeeCreateView(CreateView):
     template_name = "coffee/coffee-create.html"
     model = Coffee
     fields = ['name', 'price', 'desc', 'purchaser']
-    success_url = reverse_lazy("coffee_list")
+
+    def get_success_url(self):
+        return reverse("coffee_detail", kwargs={"pk": self.object.pk})
 
 
 class CoffeeUpdateView(UpdateView):
